@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 const elem = require('./elements').ELEMENTS
 
 class login{
