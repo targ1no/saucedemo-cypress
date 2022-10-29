@@ -1,7 +1,7 @@
 # saucedemo-cypress
 Estudo de Cypress, BDD e PO (PageObjects). | em desenvolvimento
 
-### O repositório tem como objetivo fixar estudos em Cypress e metodologia BDD (sem ferramentas) apenas em sua teoria.
+### O repositório tem como objetivo fixar estudos em Cypress e metodologia BDD (sem ferramentas) apenas em sua teoria, utilizando o site da saucedemo.
 
 #### A divisão dos testes ocorre no formato Page Objects, com o objetivo de minimizar a quantidade de código repetido e também visando manter uma boa legibilidade principalmente em futuras manutenções do código!
 
