@@ -28,6 +28,11 @@ class login{
         this.typeCredentialsError()
         cy.get(elem.loginButton).click()
     }
+
+    logoff(){
+        cy.get(elem.home_menu).click()
+        cy.get(elem.logoff_button).click()
+    }
 }
 
 export default new login()

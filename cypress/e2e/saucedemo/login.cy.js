@@ -50,4 +50,24 @@ describe('Página de Login', () => {
         });
 
     });
+
+    context('Logoff', () => {
+    
+        it('Dado que o usuário esteja logado na apliação', () => {
+
+        });
+
+        it('E clica no botão menu hambúrguer no canto superior esquerdo da tela', () => {
+
+        });
+
+        it('Quando clicar no botão "Logoff"', () => {
+            
+        });
+
+        it('Então ele deverá voltar para a página de login', () => {
+            
+        });
+
+    });
 });
