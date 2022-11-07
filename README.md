@@ -5,7 +5,7 @@ Estudo de Cypress, BDD e PO (PageObjects). | em desenvolvimento
 
 #### A divisão dos testes ocorre no formato Page Objects, com o objetivo de minimizar a quantidade de código repetido e também visando manter uma boa legibilidade principalmente em futuras manutenções do código!
 
-#### O arquivo *env* do cypress está sendo upado no projeto pois nesse caso DESSE projeto de estudo não estou mexendo com dados sensíveis. No cenário da vida real, certamente este arquivo deve estar no .gitignore e não deve ser subido.
+#### O arquivo *env* do cypress está sendo upado no repo pois nesse caso DESSE projeto de estudo não estou mexendo com dados sensíveis. No cenário da vida real, certamente este arquivo deve estar no .gitignore e não deve ser carregado.
 
 Para rodar a aplicação em sua máquina, faça o clone, abra o seu terminal no diretório raiz do projeto e digite --npm install--. (certifique-se de que o Node.Js está instalado na sua maquina antes de executar o comando anterior)
 - Logo após este passo, digite --npx cypress run-- e logo em seguida, no terminal, você terá os resultados do teste. 
