@@ -54,19 +54,19 @@ describe('Página de Login', () => {
     context('Logoff', () => {
     
         it('Dado que o usuário esteja logado na apliação', () => {
-
+            login.validateLoginPage()
+            login.typeCredentialsAndLogin()
+            home.homePageIsVisible()
         });
 
-        it('E clica no botão menu hambúrguer no canto superior esquerdo da tela', () => {
-
-        });
-
-        it('Quando clicar no botão "Logoff"', () => {
-            
+        it('E clica na opção "Logoff" dentro do menu hambúrguer no canto superior esquerdo da tela', () => {
+            login.validateLoginPage()
+            login.typeCredentialsAndLogin()
+            login.logoff()
         });
 
         it('Então ele deverá voltar para a página de login', () => {
-            
+            login.validateLoginPage()
         });
 
     });
